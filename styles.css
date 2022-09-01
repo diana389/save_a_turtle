@@ -4,7 +4,7 @@ body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    padding-bottom: 150px;
+    padding-bottom: 30%;
     padding-top: 30px;
 }
 
@@ -60,14 +60,8 @@ input[type="submit"] {
     color: rgb(3, 71, 88);
 }
 
-img {
-    display: block;
-    margin: 10px auto;
-    width: 15%;
-}
-
 body {
     background-image: url(https://images.hdqwalls.com/wallpapers/peaceful-calm-waves-5k-m9.jpg);
     background-repeat: no-repeat;
-    background-size: 115%;
+    background-size: 150%;
 }

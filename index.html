@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marius</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Marius</h1>
+    <p id="description">Marius explanation</p>
+    <form id="survey-form">
+
+        <fieldset>
+            <label id="name-label">Name:
+                <input id="name" type="text" required placeholder="Enter your name" class="data">
+            </label>
+
+            <label id="email-label">Email:
+                <input id="email" type="email" required placeholder="Enter your email" class="data">
+            </label>
+
+            <label id="number-label">Age:
+                <input id="number" type="number" min='0' max='10' placeholder="Enter your age" class="data">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            Intrebare 1:
+            <label>
+                <select id="dropdown" required>
+                    <option value="">(select one)</option>
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            Intrebare 2:
+            <label><input type="radio" value="first" name="idk" class="inline">da</label>
+            <label><input type="radio" value="second" name="idk" class="inline">nu</label>
+        </fieldset>
+
+        <fieldset>
+            Intrebare 3:
+            <label><input type="checkbox" value="marius" class="inline">nu</label>
+            <label><input type="checkbox" value="marius" class="inline">da</label>
+        </fieldset>
+
+        <fieldset>
+            Zi-ne ceva:
+            <textarea placeholder="marius"></textarea>
+        </fieldset>
+
+        <input id="submit" type="submit">
+
+    </form>
+</body>
+
+</html>

@@ -12,8 +12,6 @@ p {
     text-align: center;
 }
 
-fieldset {}
-
 label {
     background-color: aqua;
     display: block;

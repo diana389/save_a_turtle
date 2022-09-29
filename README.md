@@ -1,3 +1,3 @@
 # Save a turtle
 
-![image](https://user-images.githubusercontent.com/94044563/187988010-73adc1b5-506b-4ee6-b553-cb732dbcf68a.png)
+![image](https://user-images.githubusercontent.com/94044563/193086921-a2a403c3-c033-4a1b-a0ca-417cae9776a6.png)
